@@ -1,0 +1,17 @@
+// program #16: increment and decrement 
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    int num1;
+    cout<<"Enter a number: ";
+    cin>>num1;
+    cout<<"\nValue before being increment: "<<num1<<"\n";
+    num1++;
+    cout<<"\nValue after being incremnt: "<<num1<<"\n";
+    num1--;
+    cout<<"\nValue before being increment: "<<num1<<"\n";
+    num1--;
+    cout<<"\nValue after being increment: "<<num1<<"\n";
+}
