@@ -1,0 +1,17 @@
+// program #15: zodiac sign
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int month, day;
+    cout<<"Enter the month of your birthday: ";
+    cin>>month;
+    cout<<"Enter the day of your birthday: ";
+    cin>>day;
+    if(month>=1 && month<=12 && day>=1 && day<=31) {
+        if(month>=1 && month<=12 && day>=1 && day<=31){
+         if(month>=1 && month<=20 && day>=1) 
+        }
+    }
+}
