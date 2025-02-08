@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+// Function to calculate the surface area of a cone
+double coneArea(double r, double h) {
+    double r_squared = pow(r, 2);
+    double l = sqrt(r_squared + pow(h, 2)); // Slant height
+    double area = M_PI * r_squared + M_PI * r * l; // Total surface area
+    return area;
+}
+
+int main() {
+    double radius, height;
+    
+    // User input
+    cout << "Enter the radius of the cone: ";
+    cin >> radius;
+    cout << "Enter the height of the cone: ";
+    cin >> height;
+
+    // Calculate and display area
+    double area = coneArea(radius, height);
+    cout << "The surface area of the cone is: " << area << endl;
+
+    return 0;
+}
